@@ -4,15 +4,10 @@
 Please design DB TABLES and RELATIONS, in MS SQL script, for a Toastmaster Regular Meeting Agenda Project.
 
 All id must be identifier.
-
 Entity Meeting has a date, start time (as datetime), venue and memo. 
-
 Entity Role has a name and description. Name must be unique .
-
 Entity Member has a name and email. Name must be unique. Email must be unique. 
-
 Table Assignment keeps Meeting, Role, Seq and Member. Any given meeting has unique combination of role and seq.
-
 Table Speech based on Assignment, to have Level, Title and Memo
 </pre>
 
