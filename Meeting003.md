@@ -15,6 +15,7 @@ Table Speech based on Assignment, to have Level, Title and Memo
 To have initial data as follows, Meeting 2023-04-06, start time is 19:00, venue and memo both are wtc0406 Meeting 2023-04-20, start time is 19:00, venue and memo both are wtc0420
 
 To have initial data for Role as follows,
+<pre>
   role_name
   Toastmaster
   Table Topic Master
@@ -31,8 +32,31 @@ To have initial data for Role as follows,
   Grammarian
   Photographer
   President
+</pre>
 
 
 
-
-To have initial data for Member as follows, and please put email as name( all lower case, replace space with dot, all in domain example.com) member_name Aden Lu Ben Kang Candy Hsu Cory Chen Dan Lin David Chang Gimmy Chiu Hank Tsai Jenny Lin Kevin Wang Lien Wei Mark Chen Meng-Wei Lin Renee Chen Sharry Wu Wade Kaardal Yuying Pai Yvonne Lin Lisa Fang Riri
+To have initial data for Member as follows, and please put email as name( all lower case, replace space with dot, all in domain example.com) 
+<pre>
+member_name
+Aden Lu
+Ben Kang
+Candy Hsu
+Cory Chen
+Dan Lin
+David Chang
+Gimmy Chiu
+Hank Tsai
+Jenny Lin
+Kevin Wang
+Lien Wei
+Mark Chen
+Meng-Wei Lin
+Renee Chen
+Sharry Wu
+Wade Kaardal
+Yuying Pai
+Yvonne Lin
+Lisa Fang
+Riri
+</pre>
