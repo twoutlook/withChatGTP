@@ -1,3 +1,6 @@
+
+### Requirement
+<pre>
 Please design DB TABLES and RELATIONS, in MS SQL script, for a Toastmaster Regular Meeting Agenda Project.
 
 All id must be identifier.
@@ -11,10 +14,18 @@ Entity Member has a name and email. Name must be unique. Email must be unique.
 Table Assignment keeps Meeting, Role, Seq and Member. Any given meeting has unique combination of role and seq.
 
 Table Speech based on Assignment, to have Level, Title and Memo
+</pre>
 
-To have initial data as follows, Meeting 2023-04-06, start time is 19:00, venue and memo both are wtc0406 Meeting 2023-04-20, start time is 19:00, venue and memo both are wtc0420
+### Initial Data
 
-To have initial data for Role as follows,
+-- To have initial data as follows, 
+
+<pre>
+Meeting 2023-04-06, start time is 19:00, venue and memo both are wtc0406 
+Meeting 2023-04-20, start time is 19:00, venue and memo both are wtc0420
+</pre>
+
+-- To have initial data for Role as follows,
 <pre>
   role_name
   Toastmaster
@@ -36,7 +47,7 @@ To have initial data for Role as follows,
 
 
 
-To have initial data for Member as follows, and please put email as name( all lower case, replace space with dot, all in domain example.com) 
+-- To have initial data for Member as follows, and please put email as name( all lower case, replace space with dot, all in domain example.com) 
 <pre>
 member_name
 Aden Lu
